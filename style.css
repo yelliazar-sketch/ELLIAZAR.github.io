@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: x 15x;
+  background-color: #1f541f;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  margin: 15px;
+  text-decoration: none;
+  position: relative;
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+
+.hero {
+  height: 135vh;
+  background: url('dl.png.jpg')  no-repeat center/cover;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 50px;
+  font-style: "Times New Roman";
+}
+
+.hero p {
+  font-size: 18px;
+
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #0ac135;
+  border: none;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #000000;
+  font-weight: lighter;
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+  background-image: url('download.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  text-size-adjust: 60;
+    
+}
+
+.content h2 {
+  color: rgb(0, 0, 0);
+}
+.content h1 {
+  font-style: normal;
+}
+
+footer {
+  background: linear-gradient(to right, #4b914b, #7da17d);
+  color: rgb(0, 0, 0);
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer div {
+  margin: 15px;
+}
+
+footer h3 {
+  border-bottom: 2px solid #1e7343;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.objectives {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pres-card {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(16, 169, 36, 0.934);
+  max-width: 200px;
+}
+
+.pres-card img {
+  width: 100;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+}
+
+  img src{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
